@@ -1,0 +1,29 @@
+div{
+  color: red;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: justify;
+  width: 400px;
+  background-color: #00FFFF;
+}
+
+#first{
+  color: blue;
+  background-color: yellow;
+  }
+
+.underline{
+  text-decoration: underline;
+  color: black;
+}
+
+#lorem{
+  color: white;
+  background: black;
+}
+/* Aufbau CSS: div = selektor; color = eigenschaft; red = wert */
+/*div spricht den Teil <div> in der index.html an. Kommata separieren Alternativen, falls Tahoma nicht verfügbar ist. Alles, was das betrifft kommst in die geschweiften Klammern*/
+/* Ansprechen unterschiedlicher Elemente gleicher Art: in html: <div id="..."> eindeutige Identifikation des Elements */
+/* IDs nicht stapeln, Klassen schon. Spezifität gewinnt! */
+/* CSS-Regel: unten wichtiger als oben UND speziell schlägt generell! --> ID schlägt generischen Selektor, aber übernimmt Grundeinstellung*/
+/* div-Class: Gruppierung von unterschiedlichen Elementen */
+/* id's werden mit hashtags, class werden mit . benannt in CSS */
