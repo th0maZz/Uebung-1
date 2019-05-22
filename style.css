@@ -1,3 +1,19 @@
+
+/*nie vergessen: */
+
+*{
+  box-sizing: border-box;
+}
+
+/* *=alles auswählen */
+/* Box-sizing: passt die Absätze in Boxen */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 div{
   color: red;
   font-family: Tahoma, Arial, sans-serif;
@@ -19,11 +35,17 @@ div{
 #lorem{
   color: white;
   background: black;
+    }
+
+body{
+  margin: 0px;
 }
+
+
 /* Aufbau CSS: div = selektor; color = eigenschaft; red = wert */
 /*div spricht den Teil <div> in der index.html an. Kommata separieren Alternativen, falls Tahoma nicht verfügbar ist. Alles, was das betrifft kommst in die geschweiften Klammern*/
 /* Ansprechen unterschiedlicher Elemente gleicher Art: in html: <div id="..."> eindeutige Identifikation des Elements */
 /* IDs nicht stapeln, Klassen schon. Spezifität gewinnt! */
 /* CSS-Regel: unten wichtiger als oben UND speziell schlägt generell! --> ID schlägt generischen Selektor, aber übernimmt Grundeinstellung*/
-/* div-Class: Gruppierung von unterschiedlichen Elementen */
+/* div-Class: Gruppierung von unterschiedlichen, nicht eindeutig / einzigartigen Elementen */
 /* id's werden mit hashtags, class werden mit . benannt in CSS */
